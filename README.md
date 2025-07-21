@@ -1,30 +1,12 @@
-# LeEco Le 2 (s2) - PostmarketOS Build
+# Default User Password (`user123`)
 
-## Device Information
+This FAQ covers common questions related to the default user account in your PostmarketOS system.
 
-- **Device Name**: LeEco Le 2
-- **Codename**: `s2`
-- **SoC**: Qualcomm Snapdragon 652 (MSM8976)
-- **Architecture**: `aarch64`
-- **RAM**: 3 GB
-- **Storage**: 32 GB (varies by model)
-- **Display**: 5.5" 1080x1920 IPS
+---
 
-## Desktop Environment
+## 🔐 Can I change the password after installation?
 
-- **Profile**: `sxmo-de-dwm`
-- **Type**: Minimal tiling window manager (DWM-based)
-- **Target**: Lightweight, keyboard/touch-driven interface
+Yes, to change the password for the current user:
 
-## Build Details
-
-- **pmbootstrap Command**:
-  ```sh
-  pmbootstrap init
-  # Choose:
-  # - Vendor: leeco
-  # - Device: s2
-  # - UI: sxmo-de-dwm
-
-  pmbootstrap install
-  pmbootstrap export
+```sh
+passwd
